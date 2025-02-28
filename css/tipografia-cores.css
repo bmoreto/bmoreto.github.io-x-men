@@ -1,0 +1,14 @@
+body {
+  font-family: "Oxanium", cursive;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.titulo {
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #47f4ff;
+  width: 100%;
+  text-align: center;
+}

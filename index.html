@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personagens X-MEN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oxanium:wght@200..800&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="logo" src="./imagens/logo.svg" alt="logo">
+  </header>
+  <main class="selecao-de-personagens">
+    <section class="personagens">
+      <h1 class="titulo">Selecione um personagem</h1>
+      <ul class="lista-de-personagens">
+        <li class="personagem" id="ciclope" data-name="ciclope" data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los."><img src="./imagens/card-ciclope.jpg" alt="ciclope"></li>
+        <li class="personagem" id="jean-grey" data-name="jean grey" data-description="Jean Grey é ...."><img src="./imagens/card-jean-grey.jpg" alt="jean-grey"></li>
+        <li class="personagem" id="lince-negra" data-name="lince negra" data-description="Lince Negra ...."><img src="./imagens/card-lince-negra.jpg" alt="lince-negra"></li>
+        <li class="personagem" id="magneto" data-name="magnet" data-description="Magneto ...."><img src="./imagens/card-magneto.jpg" alt="magneto"></li>
+        <li class="personagem" id="noturno" data-name="noturno" data-description="Noturno ...."><img src="./imagens/card-noturno.jpg" alt="noturno"></li>
+        <li class="personagem" id="tempestade" data-name="tempestade" data-description="Tempestade ...."><img src="./imagens/card-tempestade.jpg" alt="tempestade"></li>
+        <li class="personagem" id="vampira" data-name="vampira" data-description="Vampira ...."><img src="./imagens/card-vampira.jpg" alt="vampira"></li>
+        <li class="personagem" id="wolverine" data-name="wolverine" data-description="Wolverine ...."><img src="./imagens/card-wolverine.jpg" alt="wolverine"></li>
+      </ul>
+    </section>
+    <section class="personagem-selecionado">
+      <img class="personagem-grande" src="./imagens/card-ciclope.png" alt="personagem selecionado">
+      <div class="informacoes-personagem">
+        <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+        <p class="descricao-personagem" id="descricao-personagem">Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los.</p>
+      </div>
+    </section>
+  </main>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
